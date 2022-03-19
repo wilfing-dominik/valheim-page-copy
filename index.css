@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #dcdee0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:#161B22;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+.navbar li {
+    padding-right: 2.8em;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: #dcdee0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #fab344;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    margin: 0em;
+}
+
+.navbar-logo {
+    height: 3rem;
+}
+
+.navbar-title-part {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-title-part2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.welcome-section {
+    width: 100%;
+    background-image: url(Valheimbcg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.welcome-div {
+    margin: auto;
+    padding: 2.5em;
+    display: flex;
+    max-width:1080px;
+    align-items: center;
+justify-content: center;
+}
+
+.welcome-to-valheim-plus h4, h1 {
+    margin: 0em;
+}
+
+.welcome-to-valheim-plus h4 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.welcome-to-valheim-plus h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.welcome-to-valheim-plus p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-bottom: 1.2em;
+}
+
+.valheim-plus-img {
+    width: 35em;
+}
+
+.detailed-list {
+    color: #fab344;
+}
+
+.gameplay-details {
+    margin: 0;
+    background-color: #161B22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+.gameplay-details h3, p {
+    margin: 0;
+}
+
+.gameplay-details h3 {
+    margin-top:1.5em;
+    margin-bottom: .3em;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 2rem;
+}
+
+.gameplay-details .check-out  {
+    margin-bottom: 3.2em;
+    color: #828d9f;
+    font-size: 1.2rem;
+}
+
+.detailed-list:hover {
+    color: #dcdee0;
+}
+
+.card-holder {
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    row-gap: 1.5em;
+    column-gap: 1.5em;
+    margin-bottom: 2.5em;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.card {
+    background-color: #0D1117;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1.7em;
+}
+
+.welcome-link {
+    margin-right: 1em;
+    color: #dcdee0;
+    background-color: #161B22;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-weight: 600;
+    border-radius: .3em;
+}
+
+.availabe-features {
+    color: #dcdee0;
+    background-color: #0D1117;
+    padding: 0.7em;
+}
+
+.availabe-features:hover {
+    color: #fab344;
+}
+
+.installation {
+    margin: 0;
+    background-color: #0D1117;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+.installation .how-does-it-work {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.installation h2 {
+    padding-top: 2em;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.installation p {
+    font-weight: 400;
+    color: #828d9f;
+    font-size: 1rem;
+    margin-top: .5em;
+}
+
+.installation .installation-card {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+.installation-chart {
+    margin-top: 4em;
+    display: flex;
+}
+
+i {
+    font-size: 85%;
+    align-self: center;
+}
+
+.download-icon, .cog-icon, .wrench-icon {
+    font-size: 3rem;
+    color: #fab344;
+}
+
+.installation-chart h3 {
+    font-family: 'IM Fell English SC', serif;
+    margin-bottom: 0;
+    margin-top: 2em;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.installation-chart p {
+    color: #dcdee0;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.installation-chart a {
+    color: #fab344;
+}
+
+.installation-chart a:hover {
+    color: #dcdee0;
+}
+
+.shape {
+    color: #fab344;
+    font-size: 1.3rem;
+    background-color: #161B22;
+    padding: .6em;
+    border-radius: 100%;
+}
+
+.hosting-ad {
+    display: flex;
+    background-color: #161B22;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2.3em;
+    padding-bottom: 2.3em;
+}
+
+.host-col1 {
+    max-width: 600px;
+    margin-right: 9.5em;
+}
+
+.hosting-ad h3 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 1.8rem;
+}
+
+.hosting-ad p {
+    margin-bottom: 2em;
+    color: #828d9f;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.hosting-ad a {
+    color: #dcdee0;
+    border-radius: .3em;
+    background-color: #0D1117;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.hosting-ad a:hover {
+    color: #fab344; 
+}
+
+.hosting-ad img {
+    height: 15em;
+}
+
+.host-col2 {
+    display: flex;
+    align-self: center;
+}
+
+.discord {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    background-color: #0D1117;
+    padding-bottom: 5em;
+}
+
+.discord h3 {
+    font-family: 'IM Fell English SC', serif;
+    margin: 0;
+font-size: 2rem;
+}
+
+.dc-card1 {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: #161B22;
+    margin-bottom: 2em;
+}
+
+.dc-card2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #161B22;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.counter {
+    align-self: flex-end;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin-right: 2em;
+    
+}
+
+.counter {
+    justify-content: right;
+}
+
+.col2 {
+    max-width: 600px;
+}
+
+.discord p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+
+.discord a {
+    color: #dcdee0;
+    border-radius: .3em;
+    background-color: #161B22;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.custom-list {
+    margin-bottom: 2.3em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-image: url(letöltés.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:cover;
+    text-align: center;
+}
+
+footer p {
+    max-width: 800px;
+    margin-top: 2em;
+    margin-bottom: 3.5em;
+    font-size: 1.2rem;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 600;
+}
+
+footer .last-link {
+    color: #dcdee0;
+    border-radius: .3em;
+    background-color: #161B22;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.our-page {
+    color: #fab344;
+}
+
+.our-page:hover {
+    color: #dcdee0;
+}
